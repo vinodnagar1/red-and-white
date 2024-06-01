@@ -1,0 +1,248 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+#main {
+  outline: 1px solid black;
+  height: 45px;
+  width: 100%;
+}
+
+#logo {
+  position: absolute;
+  height: 73px;
+  width: 95px;
+  margin-top: -15px;
+  margin-left: 25px;
+}
+
+#home {
+  position: absolute;
+  margin-top: 14px;
+  font-size: 19px;
+  margin-left: 148px;
+}
+
+#in1 {
+  height: 20px;
+  width: 569px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 224px;
+}
+
+.fa-search {
+  position: absolute;
+  margin-top: 14px;
+  font-size: 19px;
+  margin-left: 835px;
+}
+
+.fa-shopping-cart {
+  position: absolute;
+  margin-top: 14px;
+  font-size: 19px;
+  margin-left: 884px;
+}
+
+#aaa {
+  position: absolute;
+  margin-top: 5px;
+  font-weight: 600;
+  color: white;
+  font-size: 9px;
+  margin-left: 896px;
+  background-color: red;
+  border-radius: 50%;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#singup {
+  position: absolute;
+  margin-top: 14px;
+  font-size: 19px;
+  margin-left: 940px;
+}
+
+#name {
+  position: absolute;
+  margin-top: 14px;
+  font-size: 19px;
+  margin-left: 1028px;
+  color: blueviolet;
+}
+
+#im1 {
+  position: absolute;
+  margin-top: 4px;
+  height: 37px;
+  width: 37px;
+  margin-left: 1116px;
+  border-radius: 50%;
+}
+.fa-user-tie {
+  position: absolute;
+  margin-top: 15px;
+  height: 45px;
+  width: 45px;
+  margin-left: 1100px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left: 30px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+  width: 200px;
+}
+
+.price {
+  color: black;
+  font-size: 15px;
+}
+.title {
+  color: grey;
+  font-size: 15px;
+}
+.rating {
+  color: white;
+  font-size: 15px;
+  color: green;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.cart {
+  height: 45px;
+
+  display: flex;
+  margin-left: 180px;
+}
+#im2 {
+  margin-top: 4px;
+  height: 37px;
+  width: 37px;
+  margin-left: 1px;
+  border-radius: 50%;
+}
+#pri {
+  margin-top: 4px;
+
+  margin-left: 25px;
+}
+#quan {
+  margin-top: 4px;
+
+  margin-left: 45px;
+}
+#butre {
+  margin-top: 4px;
+
+  margin-left: 55px;
+  font-size: small;
+  background-color: red;
+  margin-bottom: 5px;
+}
+.top {
+  width: 50%;
+  margin: auto;
+}
+#total {
+  margin-left: 60px;
+}
+#rmal {
+  background-color: red;
+  margin-left: 50px;
+}
+#byal {
+  background-color: green;
+  margin-left: 20px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  }
+}
